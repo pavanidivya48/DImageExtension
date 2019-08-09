@@ -1,0 +1,6 @@
+framework module DImageExtension {
+  umbrella header "DImageExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}

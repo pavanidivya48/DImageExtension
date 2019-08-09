@@ -1,0 +1,16 @@
+PODS:
+  - DImageExtension (0.1.0)
+
+DEPENDENCIES:
+  - DImageExtension (from `../`)
+
+EXTERNAL SOURCES:
+  DImageExtension:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DImageExtension: 07dd54902952c96d8922d6b1338c89a85aabbdfd
+
+PODFILE CHECKSUM: 33d63a28af7b4f1fa5c7a61c20b73328e0af14c4
+
+COCOAPODS: 1.8.0.beta.1

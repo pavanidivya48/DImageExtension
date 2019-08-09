@@ -1,0 +1,6 @@
+framework module Pods_DImageExtension_Example {
+  umbrella header "Pods-DImageExtension_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
