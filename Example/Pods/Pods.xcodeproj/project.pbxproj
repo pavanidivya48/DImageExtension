@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		05511313856A23D430D78372B780ABCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		28D01B6EDCBFDD95FDA3DB3E7850A705 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EE078C66615C4070ABAB7286549055 /* ReplaceMe.swift */; };
 		2AEC71E022FDA5BF0059CD43 /* ImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEC71DF22FDA5BF0059CD43 /* ImageExtension.swift */; };
 		3B418FB8986E583F1402F00C5DC51AAD /* Pods-DImageExtension_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D6D8277CA1E8BEBC98349EB9C3B29CFA /* Pods-DImageExtension_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		40FD2E979F132F43FCC442D9A5024BC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -55,7 +54,6 @@
 		88A05AA2919295B7FD9AE35782E82DBB /* DImageExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DImageExtension-prefix.pch"; sourceTree = "<group>"; };
 		8BB7227696529C91D2994ABDC7F7B2EB /* Pods_DImageExtension_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DImageExtension_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A6EE078C66615C4070ABAB7286549055 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = DImageExtension/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		AD134385AA8C29B18CFAB9C4FFCC7F81 /* Pods-DImageExtension_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DImageExtension_Tests-Info.plist"; sourceTree = "<group>"; };
 		AEEDF46F81623DE2C7ABE3BA21F09770 /* Pods-DImageExtension_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DImageExtension_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B4B8402F04CECA64869CD8422DD4E1CE /* DImageExtension.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DImageExtension.xcconfig; sourceTree = "<group>"; };
@@ -196,7 +194,6 @@
 		C25972C74C1DB43972AB455D288FF5F5 /* DImageExtension */ = {
 			isa = PBXGroup;
 			children = (
-				A6EE078C66615C4070ABAB7286549055 /* ReplaceMe.swift */,
 				2AEC71DF22FDA5BF0059CD43 /* ImageExtension.swift */,
 				2FC905C19A42F272BF9FBEB708EE136B /* Pod */,
 				7CCC65B31F0C377E9DE1DA7103B565BB /* Support Files */,
@@ -390,7 +387,6 @@
 			files = (
 				9F74E8792F6C47D2EC1499E972E8DA8E /* DImageExtension-dummy.m in Sources */,
 				2AEC71E022FDA5BF0059CD43 /* ImageExtension.swift in Sources */,
-				28D01B6EDCBFDD95FDA3DB3E7850A705 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
