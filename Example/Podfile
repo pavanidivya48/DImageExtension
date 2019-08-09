@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DImageExtension_Example' do
+  pod 'DImageExtension', :path => '../'
+
+  target 'DImageExtension_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
