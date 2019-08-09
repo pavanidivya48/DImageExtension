@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		05511313856A23D430D78372B780ABCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		28D01B6EDCBFDD95FDA3DB3E7850A705 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EE078C66615C4070ABAB7286549055 /* ReplaceMe.swift */; };
+		2AEC71E022FDA5BF0059CD43 /* ImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEC71DF22FDA5BF0059CD43 /* ImageExtension.swift */; };
 		3B418FB8986E583F1402F00C5DC51AAD /* Pods-DImageExtension_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D6D8277CA1E8BEBC98349EB9C3B29CFA /* Pods-DImageExtension_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		40FD2E979F132F43FCC442D9A5024BC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		5576DDD734E77EF4AE7E6F44F97C85E1 /* Pods-DImageExtension_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF5058BF0BFB9C921A268C75969FD796 /* Pods-DImageExtension_Example-dummy.m */; };
@@ -40,6 +41,7 @@
 		0D328DDD5FE85D1C83EA128C74AD41A3 /* DImageExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DImageExtension-umbrella.h"; sourceTree = "<group>"; };
 		15B6919C6C24E6A170A85A40A193E598 /* DImageExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DImageExtension-Info.plist"; sourceTree = "<group>"; };
 		27B9DC9576C6AAF3ECB0409142B32F31 /* Pods-DImageExtension_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DImageExtension_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2AEC71DF22FDA5BF0059CD43 /* ImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ImageExtension.swift; path = DImageExtension/Classes/ImageExtension.swift; sourceTree = "<group>"; };
 		2E7DAFFC439F6D5C13E70736B1A9A14D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		37783F7FD493C2CDDAF46ABB19F182FF /* Pods-DImageExtension_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DImageExtension_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -195,6 +197,7 @@
 			isa = PBXGroup;
 			children = (
 				A6EE078C66615C4070ABAB7286549055 /* ReplaceMe.swift */,
+				2AEC71DF22FDA5BF0059CD43 /* ImageExtension.swift */,
 				2FC905C19A42F272BF9FBEB708EE136B /* Pod */,
 				7CCC65B31F0C377E9DE1DA7103B565BB /* Support Files */,
 			);
@@ -386,6 +389,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F74E8792F6C47D2EC1499E972E8DA8E /* DImageExtension-dummy.m in Sources */,
+				2AEC71E022FDA5BF0059CD43 /* ImageExtension.swift in Sources */,
 				28D01B6EDCBFDD95FDA3DB3E7850A705 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
